@@ -77,7 +77,7 @@ header p{
     color: var(--text-dark-light);
     text-align: center;
     margin-top: 5rem;
-    animation: down 2s backwards;
+    animation: down 2s 500ms backwards;
 }
 
 main{
@@ -103,7 +103,7 @@ main{
 }
 
 .card img{
-    animation: topdown 700ms backwards;
+    animation: topdown 2s 400ms backwards;
 }
 
 .card img ,h2{
