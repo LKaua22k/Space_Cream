@@ -77,7 +77,7 @@ header p{
     color: var(--text-dark-light);
     text-align: center;
     margin-top: 5rem;
-    animation: down 3s backwards;
+    animation: down 2s backwards;
 }
 
 main{
