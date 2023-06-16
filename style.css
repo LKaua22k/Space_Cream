@@ -41,7 +41,7 @@ header{
     padding: 3.2rem 0 6.3rem;
 }
 
-header::before{
+body::before{
     content:'';
     position: absolute;
     width: 100%;
@@ -101,6 +101,9 @@ main{
     height: 25rem;
 }
 
+.card img{
+    animation: all ;
+}
 
 .card img ,h2{
     border-radius: 2rem;
@@ -119,4 +122,18 @@ main{
     background-color: var(--back-text);
     height: 3.5rem;
     padding: 0 2.4rem;
+}
+
+
+@keyframes topdown {
+    0%{
+        opacity: 0;
+        transform: translateY(-15px)
+    }
+
+    100%{
+
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
