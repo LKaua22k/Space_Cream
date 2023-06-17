@@ -186,6 +186,10 @@ footer{
           "D E F";
     }
 
+    .container{
+        max-width:62.4rem ;
+    }
+
     .card{
         width: 100%;
     }
