@@ -174,10 +174,6 @@ footer{
 }
 
 @media (min-width:778px) {
-    header p{
-        color: white;
-    }
-
     main .card-wrapper{
         grid-area: main;
         width: 100%;
@@ -217,12 +213,6 @@ footer{
     .card-wrapper .card:nth-child(6){
         grid-area: F;
     }
-
-    .card-wrapper h2{
-        opacity: 0;
-        visibility: hidden;
-    }
-    
 
     .S img{
         width: 100%;
@@ -267,6 +257,11 @@ footer{
     main .card-wrapper{
         margin-top: 5rem ;
         margin-bottom: 3rem;
+    }
+
+    .card-wrapper h2{
+        opacity: 0;
+        visibility: hidden;
     }
 
     footer{
