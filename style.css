@@ -175,7 +175,6 @@ footer{
 
 @media (min-width:778px) {
     main .card-wrapper{
-        grid-area: main;
         width: 100%;
 
         grid-template-columns: 1fr 1fr 1fr;
@@ -254,11 +253,16 @@ footer{
         grid-area: header;
     }
 
+    header img{
+        content: url(./imgs/Logo_desktop.svg);
+    }
+
     main{
         padding:0 9.8rem 0;
     }
 
     main .card-wrapper{
+        grid-area: main;
         margin-top: 5rem ;
         margin-bottom: 3rem;
     }
