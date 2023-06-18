@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+}
+
 img{
     width: 100%;
     height: auto;
@@ -133,6 +137,18 @@ footer{
     visibility: hidden;
 }
 
+footer p{
+    color: var(--text-darck);
+    font-weight: 400;
+    font-family: var(--font-secundary);
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+}
+
+footer p a{
+    font-weight: 700;
+}
+
 
 @keyframes topdown {
     0%{
@@ -243,18 +259,20 @@ footer{
 
     .container{
         display: grid;
-        grid-area: "header main";
         
         grid-template-columns: 37.7rem 2fr;
         max-width: 100%;
     }
 
-    header{
-        grid-area: header;
-    }
 
     header img{
         content: url(./imgs/Logo_desktop.svg);
+    }
+
+    header p{
+        max-width: 27.6rem;
+        margin: 0 auto;
+        color: var(--text-white);
     }
 
     main{
@@ -262,7 +280,6 @@ footer{
     }
 
     main .card-wrapper{
-        grid-area: main;
         margin-top: 5rem ;
         margin-bottom: 3rem;
     }
@@ -273,6 +290,8 @@ footer{
     }
 
     footer{
+        opacity: 1;
+        visibility: visible;
         text-align: center;
     }
 }
